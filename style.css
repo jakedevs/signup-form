@@ -1,5 +1,10 @@
 html, body {
   height: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+body {
+  display: flex;
 }
 
 #center-main {
@@ -11,6 +16,7 @@ html, body {
 #forms {
   display: flex;
   border: 1px solid black;
+  height: 300px;
 }
 
 #main {
@@ -25,4 +31,13 @@ label {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+}
+
+#img {
+  overflow: hidden;
+  background-image: url("./images/fern-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 100%;
 }
