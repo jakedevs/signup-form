@@ -7,6 +7,7 @@ body {
   display: flex;
 }
 
+
 #center-main {
   height: 100%;
   display: flex;
@@ -60,6 +61,7 @@ input {
   height: 100%;
 }
 
+
 .logo {
   display: flex;
   align-items: center;
@@ -77,4 +79,26 @@ input {
   height: 200px;
   opacity: 1;
   transform: rotate(45deg);
+  align-self: center;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    flex-direction: column;
+  }
+  #img {
+    width: 100%;
+  }
+  .logo {
+    margin-top: 70px;
+    height: 40%;
+  }
+  #logo-header {
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1700px) {
+  #img {
+    width: 100%;
+  }
 }
