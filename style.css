@@ -1,9 +1,28 @@
-#main {
+html, body {
+  height: 100%;
+}
+
+#center-main {
+  height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 #forms {
+  display: flex;
   border: 1px solid black;
+}
+
+#main {
+  width: 100%;
+}
+
+label {
+  display: block;
+}
+
+#formtable {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
