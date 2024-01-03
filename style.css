@@ -1,0 +1,9 @@
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#forms {
+  border: 1px solid black;
+}
